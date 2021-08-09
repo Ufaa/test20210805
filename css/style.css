@@ -1,0 +1,43 @@
+.catch-copy {
+  padding-top: 1%;
+  font-size: 24px;
+}
+
+.about {
+  padding: 2% 0;
+}
+
+.about p {
+  font-size: 12px;
+}
+
+.about p span {
+  font-weight: bold;
+}
+
+.blog1,.blog2,.blog3 {
+  width: 100%;
+  padding: 1% 0;
+}
+
+.blog1 h4,.blog2 h4,.blog3 h4{
+  display: block;
+  padding-top: 2%;
+}
+
+.contact{
+  padding-bottom: 2%;
+}
+.contact h2 {
+  font-size: 20px;
+  padding: 2% 0;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 0px 8px;
+}
+
+.contact-box th{
+  vertical-align: middle;
+}

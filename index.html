@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTMLテスト</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+  </header>
+  <!-- header end -->
+
+  <!-- top-msg -->
+  <div class="catch-copy">
+    <h1>キャッチコピー</h1>
+  </div>
+  <div class="about">
+    <h2>About</h2><br>
+    <p>COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>
+    プログラミング未経験の方でも、<span>「独自の学習ノウハウ」</span>でフリーランスエンジニアを目指すことができます。</p>
+  </div>
+  <!-- top-msg end -->
+
+  <main>
+    <!-- blog -->
+    <h2>ブログ</h2>
+
+    <div class="blog1">
+      <img src="./img/blog__eyecatch1.jpg">
+      <h4>コーチテックブログのタイトルがここには入ります。</h4>
+    </div>
+
+    <div class="blog2">
+      <img src="./img/blog__eyecatch2.jpg">
+      <h4>コーチテックブログのタイトルがここには入ります。</h4>
+    </div>
+
+    <div class="blog3">
+      <img src="./img/blog__eyecatch3.jpg">
+      <h4>コーチテックブログのタイトルがここには入ります。</h4>
+    </div>
+    <!-- blog end -->
+
+    <!-- inquiry -->
+    <div class="contact">
+      <h2>問い合わせ</h2>
+      <table class="contact-box">
+        <tr>
+          <th><label class="contact-form-item-name" for="name">名前</label></th>
+          <td><input type="text" id="name" class="contact-form-item-input" required></td>
+        </tr>
+        <tr>
+          <th><label class="contact-form-item-name" for="email">メールアドレス</label></th>
+          <td><input type="email" id="email" class="contact-form-item-input" required></td>
+        </tr>
+        <tr>
+          <th><label>用件</label></th>
+          <td><select name="category">
+            <option value="pr">広告掲載について</option>
+          </select></td>
+        </tr>
+        <tr>
+          <th><label class="contact-form-item-name" for="comment">内容</label></th>
+          <td><textarea id="comment" rows="8" cols="30" class="contact-form-item-textarea" required></textarea></td>
+        </tr>
+        <tr>
+          <th><input type="reset" value="削除" class="contact-form-reset">
+          <input type="submit" value="送信" class="contact-form-submit"></th>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <!-- inquiry end -->
+    
+  <!-- footer -->
+  <!-- footer end -->
+</body>
+
+</html>
